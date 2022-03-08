@@ -34,7 +34,7 @@ target_link_libraries(blur SystemC::systemc)
 # Add test blur filter command
 set(OUT_FILE "out.bmp")
 add_custom_command(OUTPUT ${OUT_FILE}
-	COMMAND ./blur ../lena_std_short.bmp ./${OUT_FILE}
+	COMMAND ./blur ../input.bmp ./${OUT_FILE}
 	DEPENDS blur
 	WORKING_DIRECTORY ${CMAKE_BINARY_DIR}	
 )
