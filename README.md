@@ -6,7 +6,8 @@ There are two implementation reside in the sub-directorys, blur-fifo and blur0fi
 ## Compile & Run
 1. Enter either blur-fifo or blur-fifo-row-based directory and make a directory for generated binary files
     - `$ cd blur-fifo` or `cd blur-fifo-row-based`
-    - `$ build`
+    - `$ mkdir build`
+    - `$ cd build`
 2. Generate Makefiles
     - `$ cmake ..`
 3. Compile the source code and run the program
